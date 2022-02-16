@@ -1,0 +1,16 @@
+body{
+        background-image: url('../picture/background.jpg');
+      
+}
+
+h1{
+    font-family: 'Cinzel', serif;
+    ont-size: 64px; 
+    font-weight: 700; 
+    line-height: 64px; 
+    margin: 0 0 0;
+    padding: 20px 30px; 
+    text-align: center; 
+    text-transform: uppercase; 
+}
+
