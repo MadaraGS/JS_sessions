@@ -6,9 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="">
-    <script src="script.js"></script>
+    <!-- <script src="script.js"></script> -->
 </head>
 <body>
+    <h1>The FizzBuzz numbers</h1>
+     <p id="demo" style="background-color: green">
+     </br>
+     </p>
+
+     <script>
+         let number = prompt("Enter number how many FizzBuzz numbers you want to see")
+         let summ;
+         let arr = [];
+            for(let i = 1;  i <= number; i++){
+                summ = i * 15;
+             if( summ % 15  === 0){
+                console.log(summ);  
+     }
+       arr.push(summ)
+        
+    }      
+    console.log(arr.join("\n"))
+    document.getElementById("demo").innerText = 
+    arr.join("\n");
     
+     </script>
 </body>
 </html>
