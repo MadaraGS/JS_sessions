@@ -30,16 +30,12 @@ Implement the functions which expect the string value as the importing parameter
     console.log(wordArr)
       
               for(let i = 0; i< wordArr.length; i++){
-                      let temp  = wordArr[i]
-                        tempTwo = wordArr[i+1];
-                        temp = tempTwo;
-                        tempTwo = temp;
-                        wordNew.push()
-
-                    
-                        
+                      let word = wordArr[i];
+                      wordArr.splice(wordArr[i+1],1,word)
+                      console.log(wordArr.join(""))
+                     
               }  
-                       console.log(wordNew.join(" ") )
+                   
             
 
       }
