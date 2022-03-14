@@ -21,7 +21,7 @@ Implement the functions which expect the string value as the importing parameter
     // }
     // stringPalindrome(prompt("Please eneter name to check is word is Palindrome"));
 
-//  2)Print the  anagram
+//  2)Print the  anagram  , I thnik i do not understan this 100%
 
   function anagram(word){
     let wordNew = []; 
